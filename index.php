@@ -52,10 +52,7 @@ ini_set('display_errors', 1);
     </nav>
 </header>
  
-<main>
-    
-Footer · PHP
-</main>
+
  
 <footer class="site-footer">
     <div class="container footer-inner">

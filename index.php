@@ -1,10 +1,15 @@
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title><?php echo isset($pageTitle) ? e($pageTitle) . ' - ' . SITE_NAME : SITE_NAME; ?></title>
-<link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/style.css">
+<link rel="stylesheet" href="style.css">
+ <script src="main.js"></script>
 </head>
 <body>
  

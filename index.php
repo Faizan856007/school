@@ -1,8 +1,18 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
+
+define('SITE_NAME', 'Greenfield School');
+define('BASE_URL', '');
+
+function e($text) {
+    return htmlspecialchars($text, ENT_QUOTES, 'UTF-8');
+}
+
+function isLoggedIn() {
+    return false;
+}
 ?>
-<?php echo isset($pageTitle) ? e($pageTitle) . ' - ' . SITE_NAME : SITE_NAME; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

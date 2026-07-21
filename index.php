@@ -23,7 +23,124 @@ function isLoggedIn() {
  <script src="main.js"></script>
 </head>
 <body>
- 
+ //SACHIN 
+    <header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-graduation-cap"></i>
+            SchoolERP
+        </div>
+
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Modules</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <a href="#" class="login-btn">
+            Login
+        </a>
+
+    </nav>
+
+    <section class="hero">
+
+        <div class="left">
+
+            <span class="badge">
+                Trusted by 500+ Schools
+            </span>
+
+            <h1>
+                Manage Your School
+                <span>Smarter</span>
+                with One Platform
+            </h1>
+
+            <p>
+                Admissions, Fees, Attendance, Exams,
+                Student Records, Timetable, HR, Payroll,
+                Parents Communication and much more.
+            </p>
+
+            <div class="buttons">
+
+                <a href="#" class="primary">
+                    Get Started
+                </a>
+
+                <a href="#" class="secondary">
+                    Book Demo
+                </a>
+
+            </div>
+
+            <div class="stats">
+
+                <div>
+                    <i class="fa-solid fa-cloud"></i>
+                    Secure Cloud
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-bolt"></i>
+                    Easy Setup
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-headset"></i>
+                    24/7 Support
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <div class="dashboard">
+
+                <div class="card attendance">
+                    <h3>Attendance</h3>
+                    <h2>95%</h2>
+                </div>
+
+                <div class="card fees">
+                    <h3>Fees Collected</h3>
+                    <h2>₹12.5L</h2>
+                </div>
+
+                <div class="card students">
+                    <h3>Students</h3>
+                    <h2>2,540</h2>
+                </div>
+
+                <div class="card chart">
+                    <h3>Performance</h3>
+
+                    <div class="bars">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</header>
 
  
     <nav class="main-nav">

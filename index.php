@@ -24,21 +24,7 @@ function isLoggedIn() {
 </head>
 <body>
  
-<header class="site-header">
-    <div class="topbar">
-        <div class="container topbar-inner">
-            <span>📞 +91 98765 43210 &nbsp;|&nbsp; ✉ info@greenfieldschool.test</span>
-            <div class="topbar-links">
-                <?php if (isLoggedIn()): ?>
-                    <a href="<?php echo BASE_URL; ?>/parent/dashboard.php">My Dashboard</a>
-                    <a href="<?php echo BASE_URL; ?>/auth/logout.php">Logout</a>
-                <?php else: ?>
-                    <a href="<?php echo BASE_URL; ?>/auth/login.php">Login</a>
-                    <a href="<?php echo BASE_URL; ?>/auth/register.php">Register</a>
-                <?php endif; ?>
-            </div>
-        </div>
-    </div>
+
  
     <nav class="main-nav">
         <div class="container nav-inner">

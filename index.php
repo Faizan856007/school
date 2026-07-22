@@ -67,14 +67,7 @@ function isLoggedIn() {
 
 </header>
 
-<!-- Main Content -->
-<main style="padding-top:120px;">
 
-    <h1 style="text-align:center; margin-top:40px;">
-        Welcome to <?php echo SITE_NAME; ?>
-    </h1>
-
-</main>
 
 <!-- Footer -->
 <footer class="site-footer">

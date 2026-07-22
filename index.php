@@ -16,65 +16,65 @@ function isLoggedIn() {
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>School Header</title>
+
+<title><?php echo SITE_NAME; ?></title>
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="<?php echo BASE_URL; ?>/assets/css/style.css">
+
 </head>
 
 
-</head>
-<body>
     
 <body>
 
-<header>
+<header class="header">
 
-<div class="logo">
+    <div class="logo">
 
-<div class="logo-box">
-<i class="fas fa-graduation-cap"></i>
-</div>
+        <div class="logo-box">
+            <i class="fas fa-graduation-cap"></i>
+        </div>
 
-<div class="school-name">
-<h2>Future Bright School</h2>
-<p>Learn • Grow • Shine</p>
-</div>
+        <div class="school-name">
+            <h2><?php echo SITE_NAME; ?></h2>
+            <p>Learn • Grow • Shine</p>
+        </div>
 
-</div>
+    </div>
 
+    <nav>
 
-<nav>
+        <ul>
 
-<ul>
+            <li><a href="<?php echo BASE_URL; ?>/index.php">Home</a></li>
 
-<li><a href="#">Home</a></li>
+            <li><a href="<?php echo BASE_URL; ?>/about.php">About</a></li>
 
-<li><a href="#">About</a></li>
+            <li><a href="<?php echo BASE_URL; ?>/academics.php">Academics</a></li>
 
-<li><a href="#">Academics</a></li>
+            <li><a href="<?php echo BASE_URL; ?>/admissions.php">Admission</a></li>
 
-<li><a href="#">Admission</a></li>
+            <li><a href="<?php echo BASE_URL; ?>/gallery.php">Gallery</a></li>
 
-<li><a href="#">Gallery</a></li>
+            <li><a href="<?php echo BASE_URL; ?>/contact.php">Contact</a></li>
 
-<li><a href="#">Contact</a></li>
+        </ul>
 
-</ul>
+    </nav>
 
-</nav>
-
-<div class="header-btn">
-
-<a href="#" class="btn">
-Apply Now
-</a>
-
-</div>
+    <div class="header-btn">
+        <a href="<?php echo BASE_URL; ?>/admissions.php" class="btn">
+            Apply Now
+        </a>
+    </div>
 
 </header>
 <footer class="site-footer">

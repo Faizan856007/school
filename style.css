@@ -1,3 +1,18 @@
+:root{
+    --green-950:#0f172a;
+    --green-100:#e2e8f0;
+    --gold-400:#facc15;
+    --gold-500:#eab308;
+    --white:#ffffff;
+    --cream:#f8fafc;
+    --line:#d1d5db;
+    --ink:#1f2937;
+    --ink-soft:#6b7280;
+    --danger:#dc2626;
+    --success:#16a34a;
+    --radius:12px;
+    --shadow:0 10px 30px rgba(0,0,0,.12);
+}
 /*-------------HEADER---------*/
 *{
 margin:0;

@@ -66,52 +66,6 @@ function isLoggedIn() {
     </div>
 
 </header>
-
-
-
-<!-- Footer -->
-<footer class="site-footer">
-
-    <div class="container footer-inner">
-
-        <div class="footer-col">
-            <h3><?php echo SITE_NAME; ?></h3>
-            <p>Nurturing curious minds since 1998.</p>
-        </div>
-
-        <div class="footer-col">
-            <h4>Quick Links</h4>
-            <a href="admissions.php">Admissions</a>
-            <a href="academics.php">Academics</a>
-            <a href="contact.php">Contact</a>
-            <a href="faq.php">FAQ</a>
-        </div>
-
-        <div class="footer-col">
-            <h4>Parent Portal</h4>
-            <a href="login.php">Login</a>
-            <a href="register.php">Register</a>
-        </div>
-
-        <div class="footer-col">
-            <h4>Contact</h4>
-            <p>123 School Road, Your City</p>
-            <p>info@greenfieldschool.com</p>
-        </div>
-
-    </div>
-
-    <div class="footer-bottom">
-        &copy; <?php echo date('Y'); ?> <?php echo SITE_NAME; ?>. All Rights Reserved.
-    </div>
-
-</footer>
-
-
-</header>
-
-    
- 
 <script src="<?php echo BASE_URL; ?>/assets/js/main.js"></script>
 </body>
 </html>

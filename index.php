@@ -32,17 +32,7 @@ function isLoggedIn() {
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     /*SACHIN*/
 
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>School Header</title>
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-<link rel="stylesheet" href="style.css">
+  
 </head>
 
 <body>
@@ -96,32 +86,6 @@ Apply Now
 
 </head>
 <body>
-
-    
-    <nav class="main-nav">
-        <div class="container nav-inner">
-            <a href="<?php echo BASE_URL; ?>/index.php" class="logo"><?php echo SITE_NAME; ?></a>
-            <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="<?php echo BASE_URL; ?>/index.php">Home</a></li>
-                <li><a href="<?php echo BASE_URL; ?>/about.php">About</a></li>
-                <li><a href="<?php echo BASE_URL; ?>/admissions.php">Admissions</a></li>
-                <li><a href="<?php echo BASE_URL; ?>/academics.php">Academics</a></li>
-                <li><a href="<?php echo BASE_URL; ?>/faculty.php">Faculty</a></li>
-                <li><a href="<?php echo BASE_URL; ?>/departments.php">Departments</a></li>
-                <li><a href="<?php echo BASE_URL; ?>/gallery.php">Gallery</a></li>
-                <li><a href="<?php echo BASE_URL; ?>/news.php">News</a></li>
-                <li><a href="<?php echo BASE_URL; ?>/events.php">Events</a></li>
-                <li><a href="<?php echo BASE_URL; ?>/notice-board.php">Notice Board</a></li>
-                <li><a href="<?php echo BASE_URL; ?>/contact.php">Contact</a></li>
-                <li><a href="<?php echo BASE_URL; ?>/faq.php">FAQ</a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
- 
-
- 
 <footer class="site-footer">
     <div class="container footer-inner">
         <div class="footer-col">

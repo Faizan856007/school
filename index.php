@@ -23,9 +23,8 @@ function isLoggedIn() {
     <title><?php echo SITE_NAME; ?></title>
 
     <!-- Font Awesome -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
 </head>

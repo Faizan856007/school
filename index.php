@@ -168,7 +168,7 @@ and a vibrant learning environment.
 
 <div class="hero-right">
 
-    <img src="images/hero.png" alt="Green Valley School">
+    <img src="images/hero.png" width="800px" height="900" alt="Green Valley School">
 
     <!-- Floating Card 1 -->
     <div class="floating-card card-1">

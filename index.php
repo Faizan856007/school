@@ -410,7 +410,7 @@ CAMPUS EXPERIENCE
 
         <div class="campus-image">
 
-            <img src="images/campus.jpg" alt="Campus">
+            <img src="images/campus.png" alt="Campus">
 
             <a href="#" class="play-btn">
                 <i class="fa-solid fa-play"></i>

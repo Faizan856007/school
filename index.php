@@ -215,7 +215,7 @@ and a vibrant learning environment.
 
         <div class="about-image">
 
-            <img src="images/about-school.jpg" alt="Campus">
+            <img src="images/campus.png" alt="Campus">
 
             <div class="experience-box">
 

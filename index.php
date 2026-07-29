@@ -491,48 +491,48 @@ GALLERY SECTION
             <div class="gallery-item">
                 <img src="images/gallery1.webp" alt="Smart Classroom">
                 <div class="gallery-caption">
-                    <h3>Smart Classroom</h3>
-                    <p>Interactive digital learning spaces</p>
+                   <h3>Gallery of Excellence</h3>
+<p>Celebrating creativity, innovation, and outstanding student achievements through inspiring artwork and academic excellence.</p>
                 </div>
             </div>
 
             <div class="gallery-item">
                 <img src="images/gallery2.jpg" alt="Sports Day">
                 <div class="gallery-caption">
-                    <h3>Sports Day</h3>
-                    <p>Building teamwork and fitness</p>
+                   <h3>Student Art Exhibition</h3>
+<p>A vibrant display of student creativity featuring paintings, sketches, and handmade artwork that reflect imagination and talent.</p>
                 </div>
             </div>
 
             <div class="gallery-item">
                 <img src="images/gallery3.jfif" alt="Science Lab">
                 <div class="gallery-caption">
-                    <h3>Science Lab</h3>
-                    <p>Hands-on experiments and discovery</p>
+                    <h3>Healthy School Cafeteria</h3>
+<p>Providing fresh, nutritious, and hygienic meals every day to support students' health and overall well-being.</p>
                 </div>
             </div>
 
             <div class="gallery-item">
                 <img src="images/gallery4.jpg" alt="Annual Function">
                 <div class="gallery-caption">
-                    <h3>Annual Function</h3>
-                    <p>Celebrating talent and creativity</p>
+                   <h3>Interactive Smart Classrooms</h3>
+<p>Modern classrooms designed to encourage active learning, creativity, and collaboration through digital teaching methods.</p>
                 </div>
             </div>
 
             <div class="gallery-item">
                 <img src="images/gallery5.jfif" alt="Library">
                 <div class="gallery-caption">
-                    <h3>Library</h3>
-                    <p>A world of books and knowledge</p>
+                   <h3>Sports & Athletics</h3>
+<p>Building confidence, teamwork, and leadership through athletics, outdoor games, and professional sports facilities.</p>
                 </div>
             </div>
 
             <div class="gallery-item">
                 <img src="images/gallery6.jpg" alt="Campus Grounds">
                 <div class="gallery-caption">
-                    <h3>Campus Grounds</h3>
-                    <p>Green, open spaces for students</p>
+                    <h3>Green Campus Initiative</h3>
+<p>Encouraging environmental responsibility through tree plantation, gardening activities, and sustainable learning practices.</p>
                 </div>
             </div>
 

@@ -24,6 +24,26 @@ body{
     color:#fff;
     overflow-x:hidden;
 }
+/* ===================================
+PREMIUM FONT SETTINGS
+=================================== */
+
+.hero h1,
+.about-content h2,
+.section-header h2,
+.contact-info h2,
+.footer h2{
+    font-family:'Plus Jakarta Sans',sans-serif;
+    font-weight:800;
+    letter-spacing:-1px;
+}
+
+.section-title,
+.section-header span{
+    font-family:'Plus Jakarta Sans',sans-serif;
+    font-weight:700;
+    letter-spacing:2px;
+}
 
 /* ==========================================
    BACKGROUND

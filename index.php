@@ -36,7 +36,7 @@ function isLoggedIn() {
 
 <body>
 
-<div class="bg-gradient"></div>
+<div class="bg"></div>
 
 <header class="header">
 
@@ -44,52 +44,59 @@ function isLoggedIn() {
 
 <a href="#" class="logo">
 
-<div class="logo-box">
-
-<i class="fa-solid fa-graduation-cap"></i>
-
+<div class="logo-icon">
+<i class="fa-solid fa-school"></i>
 </div>
 
 <div>
 
 <h2>Green Valley</h2>
-
-<span>International School</span>
+<p>International School</p>
 
 </div>
 
 </a>
 
-<nav class="navbar" id="navbar">
+<nav>
 
 <ul>
 
-<li><a href="#home" class="active">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#academics">Academics</a></li>
-<li><a href="#campus">Campus</a></li>
-<li><a href="#gallery">Gallery</a></li>
-<li><a href="#contact">Contact</a></li>
+<li><a class="active" href="#">Home</a></li>
+
+<li><a href="#">About</a></li>
+
+<li><a href="#">Academics</a></li>
+
+<li><a href="#">Campus</a></li>
+
+<li><a href="#">Gallery</a></li>
+
+<li><a href="#">Contact</a></li>
 
 </ul>
 
 </nav>
 
-<div class="header-buttons">
+<div class="header-btns">
 
 <a href="#" class="login-btn">
+
 Login
+
 </a>
 
 <a href="#" class="apply-btn">
+
 Apply Now
+
 </a>
 
 </div>
 
-<button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
-<i class="fa-solid fa-bars"></i>
+<button class="menu-btn">
+    <i class="fa-solid fa-bars"></i>
 </button>
+
 
 </div>
 
@@ -101,63 +108,63 @@ Apply Now
 
 <div class="hero-left">
 
-<div class="hero-tag">
+<div class="badge">
 
-⭐ Admissions Open 2026–27
+⭐ Admissions Open 2026-27
 
 </div>
 
 <h1>
 
-Building
-
-Future
+Building Future
 
 <span>Leaders</span>
 
-Through
-
-Innovation
+Through Innovation
 
 </h1>
 
 <p>
 
 Experience world-class education with smart classrooms,
-experienced teachers, innovation labs, sports excellence,
-and a vibrant learning environment.
+experienced teachers, innovation labs,
+sports excellence and a vibrant learning environment.
 
 </p>
 
 <div class="hero-buttons">
 
-    <a href="#" class="primary-btn">
-        Explore Campus
-    </a>
+<a href="#" class="primary">
 
-    <a href="#" class="secondary-btn">
-        Watch Video
-        <i class="fa-solid fa-play"></i>
-    </a>
+Explore Campus
+
+</a>
+
+<a href="#" class="secondary">
+
+<i class="fa-solid fa-circle-play"></i>
+
+Watch Video
+
+</a>
 
 </div>
 
-
-<div class="hero-stats">
+<div class="stats">
 
 <div>
 
-<h2>2500+</h2>
+<h2>25+</h2>
+
+<span>Years</span>
+
+</div>
+
+<div>
+
+<h2>5000+</h2>
 
 <span>Students</span>
-
-</div>
-
-<div>
-
-<h2>150+</h2>
-
-<span>Teachers</span>
 
 </div>
 
@@ -172,46 +179,57 @@ and a vibrant learning environment.
 </div>
 
 </div>
-  <!-- Background Image -->
-    <div class="hero-image">
-        <img src="images/hero.png" alt="">
-    </div>
 
+<div class="hero-right">
 
-    <!-- Floating Card 1 -->
-    <div class="floating-card card-1">
-        <i class="fa-solid fa-award"></i>
-        <div>
-            <h4>25+</h4>
-            <p>Years Excellence</p>
-        </div>
-    </div>
+<img src="images/hero.jpg">
 
-    <!-- Floating Card 2 -->
-    <div class="floating-card card-2">
-        <i class="fa-solid fa-user-graduate"></i>
-        <div>
-            <h4>98%</h4>
-            <p>Success Rate</p>
-        </div>
-    </div>
+<div class="card card1">
 
-    <!-- Floating Card 3 -->
-    <div class="floating-card card-3">
-        <i class="fa-solid fa-medal"></i>
-        <div>
-            <h4>50+</h4>
-            <p>National Awards</p>
-        </div>
-    </div>
+<i class="fa-solid fa-graduation-cap"></i>
 
-    <!-- Scroll Indicator -->
-    <div class="scroll-indicator">
-        <span></span>
-    </div>
+<div>
+
+<h3>25+</h3>
+
+<p>Years Excellence</p>
 
 </div>
+
 </div>
+
+<div class="card card2">
+
+<i class="fa-solid fa-user-graduate"></i>
+
+<div>
+
+<h3>5000+</h3>
+
+<p>Students</p>
+
+</div>
+
+</div>
+
+<div class="card card3">
+
+<i class="fa-solid fa-award"></i>
+
+<div>
+
+<h3>100%</h3>
+
+<p>Results</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 <!-- =========================
      ABOUT SECTION

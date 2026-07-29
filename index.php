@@ -22,12 +22,14 @@ function isLoggedIn() {
 
     <title><?php echo SITE_NAME; ?></title>
 
-    <!-- Font Awesome -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    
+    <!-- Font Awesome (was missing — icons wouldn't render without this) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -58,7 +60,7 @@ function isLoggedIn() {
 
 </a>
 
-<nav class="navbar">
+<nav class="navbar" id="navbar">
 
 <ul>
 
@@ -84,6 +86,11 @@ Apply Now
 </a>
 
 </div>
+
+<button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+<i class="fa-solid fa-bars"></i>
+</button>
+
 </div>
 
 </header>
@@ -446,27 +453,51 @@ GALLERY SECTION
         <div class="gallery-grid">
 
             <div class="gallery-item">
-                <img src="images/gallery1.webp" alt="Gallery">
+                <img src="images/gallery1.webp" alt="Smart Classroom">
+                <div class="gallery-caption">
+                    <h3>Smart Classroom</h3>
+                    <p>Interactive digital learning spaces</p>
+                </div>
             </div>
 
             <div class="gallery-item">
-                <img src="images/gallery2.jpg" alt="Gallery">
+                <img src="images/gallery2.jpg" alt="Sports Day">
+                <div class="gallery-caption">
+                    <h3>Sports Day</h3>
+                    <p>Building teamwork and fitness</p>
+                </div>
             </div>
 
             <div class="gallery-item">
-                <img src="images/gallery3.jfif" alt="Gallery">
+                <img src="images/gallery3.jfif" alt="Science Lab">
+                <div class="gallery-caption">
+                    <h3>Science Lab</h3>
+                    <p>Hands-on experiments and discovery</p>
+                </div>
             </div>
 
             <div class="gallery-item">
-                <img src="images/gallery4.jpg" alt="Gallery">
+                <img src="images/gallery4.jpg" alt="Annual Function">
+                <div class="gallery-caption">
+                    <h3>Annual Function</h3>
+                    <p>Celebrating talent and creativity</p>
+                </div>
             </div>
 
             <div class="gallery-item">
-                <img src="images/gallery5.jfif" alt="Gallery">
+                <img src="images/gallery5.jfif" alt="Library">
+                <div class="gallery-caption">
+                    <h3>Library</h3>
+                    <p>A world of books and knowledge</p>
+                </div>
             </div>
 
             <div class="gallery-item">
-                <img src="images/gallery6.jpg" alt="Gallery">
+                <img src="images/gallery6.jpg" alt="Campus Grounds">
+                <div class="gallery-caption">
+                    <h3>Campus Grounds</h3>
+                    <p>Green, open spaces for students</p>
+                </div>
             </div>
 
         </div>
@@ -634,18 +665,17 @@ CONTACT SECTION
 
         <div class="contact-form">
 
-            <form>
+            <form id="contactForm" method="post" action="#contact">
 
-                <input type="text" placeholder="Your Name">
+                <input type="text" name="name" placeholder="Your Name" required>
 
-                <input type="email" placeholder="Email Address">
+                <input type="email" name="email" placeholder="Email Address" required>
 
-                <input type="text" placeholder="Phone Number">
+                <input type="tel" name="phone" placeholder="Phone Number" required>
 
-                <textarea rows="6" placeholder="Your Message"></textarea>
+                <textarea rows="6" name="message" placeholder="Your Message" required></textarea>
 
-/BUTTON/
-               <button class="send-btn">Send Message</button>
+                <button type="submit" class="send-btn">Send Message</button>
 
             </form>
 
@@ -663,31 +693,63 @@ FOOTER
 
     <div class="container">
 
-        <h2>Green Valley International School</h2>
+        <div class="footer-container">
 
-        <p>
-            Building Future Leaders Through Innovation.
-        </p>
+            <div class="footer-logo">
+                <h2>Green Valley <span>International School</span></h2>
+                <p>
+                    Building Future Leaders Through Innovation. A modern,
+                    inspiring learning environment for every child.
+                </p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
 
-        <div class="footer-social">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="#campus">Campus</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
 
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <div class="footer-links">
+                <h3>Academics</h3>
+                <ul>
+                    <li><a href="#academics">Primary School</a></li>
+                    <li><a href="#academics">Middle School</a></li>
+                    <li><a href="#academics">Senior School</a></li>
+                    <li><a href="#contact">Admissions</a></li>
+                </ul>
+            </div>
 
-            <a href="#"><i class="fab fa-instagram"></i></a>
-
-            <a href="#"><i class="fab fa-youtube"></i></a>
-
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p><i class="fa-solid fa-location-dot"></i> New Delhi, India</p>
+                <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+                <p><i class="fa-solid fa-envelope"></i> info@greenvalley.edu.in</p>
+            </div>
 
         </div>
 
-        <p class="copyright">
-            © 2026 Green Valley International School. All Rights Reserved.
-        </p>
+        <div class="footer-bottom">
+            <p>© 2026 Green Valley International School. All Rights Reserved.</p>
+        </div>
 
     </div>
 
 </footer>
-<script src="<?php echo BASE_URL; ?>/assets/js/main.js"></script>
+
+<!-- Back to top -->
+<button id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>

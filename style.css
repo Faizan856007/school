@@ -479,9 +479,9 @@ animation:floatCard 5s ease-in-out infinite;
 
 .card-1{
 
-top:40px;
+top:200px;
 
-left:-30px;
+right:-30px;
 
 }
 

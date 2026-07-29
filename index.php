@@ -416,17 +416,30 @@ CAMPUS EXPERIENCE
 
         </div>
 
-        <div class="campus-image">
+<div class="campus-image">
+    <img src="images/campus.png" alt="Campus">
 
-            <img src="images/campus.png" alt="Campus">
+    <a href="#" class="play-btn" id="playVideo">
+        <i class="fa-solid fa-play"></i>
+    </a>
+</div>
 
-            <a href="#" class="play-btn">
-                <i class="fa-solid fa-play"></i>
-            </a>
+<!-- Video Popup -->
+<div class="video-popup" id="videoPopup">
+    <div class="video-box">
+        <span class="close-btn" id="closeVideo">&times;</span>
 
-        </div>
-
+        <iframe id="youtubeVideo"
+            width="800"
+            height="450"
+            src=""
+            title="YouTube video player"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+        </iframe>
     </div>
+</div>
 
 </section>
 <!-- =========================

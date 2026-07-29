@@ -117,3 +117,26 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 });
+
+const playBtn = document.getElementById("playVideo");
+const popup = document.getElementById("videoPopup");
+const closeBtn = document.getElementById("closeVideo");
+const iframe = document.getElementById("youtubeVideo");
+
+playBtn.addEventListener("click", function(e){
+    e.preventDefault();
+    popup.style.display = "flex";
+    iframe.src = "https://www.youtube.com/embed/K25Q2yDl-9Y?autoplay=1";
+});
+
+closeBtn.addEventListener("click", function(){
+    popup.style.display = "none";
+    iframe.src = "";
+});
+
+popup.addEventListener("click", function(e){
+    if(e.target === popup){
+        popup.style.display = "none";
+        iframe.src = "";
+    }
+});

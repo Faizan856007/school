@@ -182,7 +182,7 @@ Watch Video
 
 <div class="hero-right">
 
-<img src="images/hero.jpg">
+<img src="images/hero.png">
 
 <div class="card card1">
 

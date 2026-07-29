@@ -489,6 +489,30 @@ nav a.active::after{
     transition:.5s;
 
 }
+.gold-circle{
+    position:absolute;
+    width:720px;
+    height:720px;
+    border-radius:50%;
+    background:radial-gradient(circle,
+    rgba(212,175,55,.25),
+    transparent 70%);
+    filter:blur(35px);
+    z-index:1;
+}
+
+.hero-right::after{
+    content:"";
+    position:absolute;
+    width:720px;
+    height:520px;
+    border:2px dashed rgba(212,175,55,.40);
+    border-radius:55%;
+    transform:rotate(-12deg);
+    top:40px;
+    left:-40px;
+    z-index:0;
+}
 
 .hero-right img:hover{
 

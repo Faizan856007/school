@@ -445,7 +445,7 @@ GALLERY SECTION
         <div class="gallery-grid">
 
             <div class="gallery-item">
-                <img src="images/gallery1.jpg" alt="Gallery">
+                <img src="images/gallery1.webp" alt="Gallery">
             </div>
 
             <div class="gallery-item">
@@ -453,7 +453,7 @@ GALLERY SECTION
             </div>
 
             <div class="gallery-item">
-                <img src="images/gallery3.jpg" alt="Gallery">
+                <img src="images/gallery3.jfif" alt="Gallery">
             </div>
 
             <div class="gallery-item">
@@ -461,7 +461,7 @@ GALLERY SECTION
             </div>
 
             <div class="gallery-item">
-                <img src="images/gallery5.jpg" alt="Gallery">
+                <img src="images/gallery5.jfif" alt="Gallery">
             </div>
 
             <div class="gallery-item">

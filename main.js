@@ -1,3 +1,38 @@
+/*------SACHIN--------*/
+const header = document.querySelector(".header");
+
+window.addEventListener("scroll", () => {
+
+if(window.scrollY > 80){
+
+header.classList.add("scrolled");
+
+}else{
+
+header.classList.remove("scrolled");
+
+}
+
+});
+
+const menuBtn=document.querySelector(".menu-btn");
+const nav=document.querySelector("nav");
+
+menuBtn.addEventListener("click",()=>{
+
+nav.classList.toggle("active");
+
+if(nav.classList.contains("active")){
+
+menuBtn.innerHTML='<i class="fa-solid fa-xmark"></i>';
+
+}else{
+
+menuBtn.innerHTML='<i class="fa-solid fa-bars"></i>';
+
+}
+
+});
 // ==========================================================
 // Green Valley International School - main.js
 // Handles: mobile menu toggle, header scroll effect,

@@ -490,17 +490,42 @@ nav a.active::after{
 
 }
 .gold-circle{
-    position:absolute;
-    width:720px;
-    height:720px;
-    border-radius:50%;
-    background:radial-gradient(circle,
-    rgba(212,175,55,.25),
-    transparent 70%);
-    filter:blur(35px);
-    z-index:1;
+
+position:absolute;
+
+width:720px;
+
+height:720px;
+
+border-radius:50%;
+
+background:radial-gradient(circle,
+rgba(212,175,55,.25),
+transparent 70%);
+
+filter:blur(30px);
+
+z-index:1;
+
+animation:glow 5s ease-in-out infinite;
+
 }
 
+@keyframes glow{
+
+0%,100%{
+
+transform:scale(1);
+
+}
+
+50%{
+
+transform:scale(1.08);
+
+}
+
+}
 .hero-right::after{
     content:"";
     position:absolute;

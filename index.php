@@ -9,6 +9,7 @@ function e($text) {
     return htmlspecialchars($text, ENT_QUOTES, 'UTF-8');
 }
 
+
 function isLoggedIn() {
     return false;
 }
@@ -181,6 +182,9 @@ Watch Video
 </div>
 
 <div class="hero-right">
+
+    <div class="gold-circle"></div>
+
 
 <img src="images/hero.png">
 

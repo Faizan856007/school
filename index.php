@@ -510,7 +510,7 @@ TESTIMONIAL SECTION
 
                 <div class="parent">
 
-                    <img src="images/parent1.jpg" alt="Parent">
+                    <img src="images/parent1.jpeg" alt="Parent">
 
                     <div>
                         <h4>Rahul Sharma</h4>
@@ -534,7 +534,7 @@ TESTIMONIAL SECTION
 
                 <div class="parent">
 
-                    <img src="images/parent2.jpg" alt="Parent">
+                    <img src="images/parent2.jpeg" alt="Parent">
 
                     <div>
                         <h4>Priya Verma</h4>
@@ -558,7 +558,7 @@ TESTIMONIAL SECTION
 
                 <div class="parent">
 
-                    <img src="images/parent3.jpg" alt="Parent">
+                    <img src="images/parent3.jpeg" alt="Parent">
 
                     <div>
                         <h4>Amit Singh</h4>

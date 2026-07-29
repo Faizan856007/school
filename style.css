@@ -257,10 +257,13 @@ HERO SECTION
 =========================================*/
 
 .hero{
-    min-height:100vh;
-    display:flex;
-    align-items:center;
-    padding:160px 0 100px;
+    background:
+    linear-gradient(rgba(8,15,30,.75),rgba(8,15,30,.75)),
+    url("images/school.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 }
 
 .hero-grid{

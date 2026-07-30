@@ -1251,20 +1251,22 @@ CAMPUS SECTION
     color:#0ea5e9;
 }
 
-/*=========================
-VIDEO BOX
-=========================*/
+/*=========================================
+PREMIUM CAMPUS VIDEO
+=========================================*/
 
 .campus-video{
     position: relative;
     width: 100%;
-    height: 560px;
-    border-radius: 28px;
+    height: 650px;          /* Video size bada */
+    border-radius: 30px;
     overflow: hidden;
     background: #000;
-    box-shadow: 0 25px 60px rgba(0,0,0,.18);
-    transition: all .4s ease;
+    box-shadow: 0 30px 80px rgba(0,0,0,.25);
+    transition: all .5s ease;
 }
+
+/* Video / YouTube */
 
 .campus-video iframe,
 .campus-video video{
@@ -1272,19 +1274,59 @@ VIDEO BOX
     height: 100%;
     border: none;
     object-fit: cover;
-    border-radius: 28px;
-    transition: transform .5s ease;
+    border-radius: 30px;
+    transition: transform .6s ease;
 }
 
-/* Hover Effect */
+/* Hover Animation */
+
 .campus-video:hover{
     transform: translateY(-10px);
-    box-shadow: 0 35px 80px rgba(0,0,0,.28);
+    box-shadow: 0 45px 100px rgba(0,0,0,.35);
 }
 
 .campus-video:hover iframe,
 .campus-video:hover video{
-    transform: scale(1.05);
+    transform: scale(1.08);
+}
+
+/* Premium Border Glow */
+
+.campus-video::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    padding:3px;
+    border-radius:30px;
+    background:linear-gradient(
+        135deg,
+        #00bfff,
+        #00e5ff,
+        #ffffff,
+        #00bfff
+    );
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite:xor;
+    mask-composite:exclude;
+    pointer-events:none;
+}
+
+/* Floating Glow */
+
+.campus-video::after{
+    content:"";
+    position:absolute;
+    width:220px;
+    height:220px;
+    background:#00c8ff;
+    border-radius:50%;
+    filter:blur(90px);
+    opacity:.25;
+    top:-60px;
+    right:-60px;
+    z-index:-1;
 }
 
 /* Responsive */
@@ -1292,15 +1334,15 @@ VIDEO BOX
 @media(max-width:992px){
 
     .campus-video{
-        height:400px;
+        height:450px;
     }
 
 }
 
-@media(max-width:576px){
+@media(max-width:768px){
 
     .campus-video{
-        height:280px;
+        height:320px;
         border-radius:20px;
     }
 
@@ -1309,24 +1351,6 @@ VIDEO BOX
         border-radius:20px;
     }
 
-}
-.campus-video::before{
-    content:"";
-    position:absolute;
-    top:-20px;
-    left:-20px;
-    width:120px;
-    height:120px;
-    background:#0ea5e9;
-    filter:blur(70px);
-    opacity:.35;
-    z-index:0;
-}
-
-.campus-video iframe,
-.campus-video video{
-    position:relative;
-    z-index:1;
 }
 
 /* Hover Effect */

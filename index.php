@@ -439,7 +439,7 @@ CAMPUS EXPERIENCE
 
         </div>
 
-/*
+
 <!-- Video Popup -->
 <div class="video-popup" id="videoPopup">
     <div class="video-box">
@@ -456,13 +456,6 @@ CAMPUS EXPERIENCE
         </iframe>
     </div>
 </div>
-*/
-        /*------------------SACHIN----------------*/
-        <section class="video-hero">
-
-    <video autoplay muted loop playsinline>
-        <source src="images/07ac9fb2.mp4" type="video/mp4">
-    </video>
 
 </section>
 <!-- =========================

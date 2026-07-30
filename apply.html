@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apply — Application Form</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="apply.css">
+</head>
+<body>
+
+<div class="sheet">
+
+  <header class="masthead">
+    <div class="masthead-top">
+      <span class="tag">FORM 07-A</span>
+      <span class="tag" id="stamp-date"></span>
+    </div>
+    <h1>Application<br>Dossier</h1>
+    <p class="masthead-sub">Fill in every section below. Fields marked <span class="req">•</span> are required. Your progress is tracked in the margin as you go.</p>
+  </header>
+
+  <div class="body-grid">
+
+    <!-- Progress rail -->
+    <nav class="rail" aria-label="Form sections">
+      <div class="rail-track"></div>
+      <ol id="rail-list">
+        <li data-section="s1" class="active"><span class="rail-num">01</span><span class="rail-label">Applicant</span></li>
+        <li data-section="s2"><span class="rail-num">02</span><span class="rail-label">Position</span></li>
+        <li data-section="s3"><span class="rail-num">03</span><span class="rail-label">Experience</span></li>
+        <li data-section="s4"><span class="rail-num">04</span><span class="rail-label">Documents</span></li>
+      </ol>
+    </nav>
+
+    <!-- Form -->
+    <form id="apply-form" novalidate>
+
+      <section class="block" id="s1" data-section="s1">
+        <div class="block-head">
+          <span class="block-num">01</span>
+          <h2>Applicant</h2>
+        </div>
+
+        <div class="field-row two">
+          <div class="field">
+            <label for="fullName">Full name <span class="req">•</span></label>
+            <input type="text" id="fullName" name="fullName" autocomplete="name" required>
+            <span class="error" id="err-fullName"></span>
+          </div>
+          <div class="field">
+            <label for="email">Email <span class="req">•</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+            <span class="error" id="err-email"></span>
+          </div>
+        </div>
+
+        <div class="field-row two">
+          <div class="field">
+            <label for="phone">Phone <span class="req">•</span></label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+1 (555) 000-0000" required>
+            <span class="error" id="err-phone"></span>
+          </div>
+          <div class="field">
+            <label for="location">City, Country</label>
+            <input type="text" id="location" name="location" autocomplete="address-level2">
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="s2" data-section="s2">
+        <div class="block-head">
+          <span class="block-num">02</span>
+          <h2>Position</h2>
+        </div>
+
+        <div class="field-row two">
+          <div class="field">
+            <label for="position">Role applying for <span class="req">•</span></label>
+            <select id="position" name="position" required>
+              <option value="" disabled selected>Select a role</option>
+              <option value="Product Designer">Product Designer</option>
+              <option value="Frontend Engineer">Frontend Engineer</option>
+              <option value="Backend Engineer">Backend Engineer</option>
+              <option value="Data Analyst">Data Analyst</option>
+              <option value="Customer Support">Customer Support</option>
+              <option value="Other">Other</option>
+            </select>
+            <span class="error" id="err-position"></span>
+          </div>
+          <div class="field">
+            <label for="startDate">Earliest start date</label>
+            <input type="date" id="startDate" name="startDate">
+          </div>
+        </div>
+
+        <div class="field-row two">
+          <div class="field">
+            <label for="employment">Employment type <span class="req">•</span></label>
+            <select id="employment" name="employment" required>
+              <option value="" disabled selected>Select one</option>
+              <option value="Full-time">Full-time</option>
+              <option value="Part-time">Part-time</option>
+              <option value="Contract">Contract</option>
+              <option value="Internship">Internship</option>
+            </select>
+            <span class="error" id="err-employment"></span>
+          </div>
+          <div class="field">
+            <label for="salary">Salary expectation</label>
+            <input type="text" id="salary" name="salary" placeholder="Optional">
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="s3" data-section="s3">
+        <div class="block-head">
+          <span class="block-num">03</span>
+          <h2>Experience</h2>
+        </div>
+
+        <div class="field">
+          <label for="experience">Years of relevant experience <span class="req">•</span></label>
+          <input type="number" id="experience" name="experience" min="0" max="60" required>
+          <span class="error" id="err-experience"></span>
+        </div>
+
+        <div class="field">
+          <label for="linkedin">Portfolio / LinkedIn URL</label>
+          <input type="url" id="linkedin" name="linkedin" placeholder="https://">
+        </div>
+
+        <div class="field">
+          <label for="coverLetter">Why this role? <span class="req">•</span></label>
+          <textarea id="coverLetter" name="coverLetter" rows="5" maxlength="1200" required placeholder="Tell us briefly why you're a fit."></textarea>
+          <div class="field-foot">
+            <span class="error" id="err-coverLetter"></span>
+            <span class="counter"><span id="cl-count">0</span>/1200</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="s4" data-section="s4">
+        <div class="block-head">
+          <span class="block-num">04</span>
+          <h2>Documents</h2>
+        </div>
+
+        <div class="field">
+          <label for="resume">Résumé (PDF or DOCX, max 5MB) <span class="req">•</span></label>
+          <div class="file-drop" id="file-drop">
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            <span class="file-drop-text" id="file-drop-text">Drop file here or click to browse</span>
+          </div>
+          <span class="error" id="err-resume"></span>
+        </div>
+
+        <label class="checkline">
+          <input type="checkbox" id="consent" name="consent" required>
+          <span>I confirm the information provided is accurate. <span class="req">•</span></span>
+        </label>
+        <span class="error" id="err-consent"></span>
+      </section>
+
+      <div class="submit-row">
+        <div class="submit-note" id="form-status" role="status" aria-live="polite"></div>
+        <button type="submit" id="submit-btn">
+          <span>Submit application</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8H14M14 8L9 3M14 8L9 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+
+    </form>
+  </div>
+
+  <footer class="foot">
+    <span>Submissions are reviewed within 5 business days.</span>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1278,6 +1278,21 @@ PREMIUM VIDEO BOX
     transform:translateY(-8px);
     box-shadow:0 40px 90px rgba(0,0,0,.30);
 }
+/* Fix YouTube Video */
+
+.campus-video{
+    width:100% !important;
+    max-width:800px;
+    height:500px !important;
+    margin-left:auto;
+}
+
+.campus-video iframe{
+    width:100% !important;
+    height:100% !important;
+    border:none;
+    border-radius:30px;
+}
 
 /* Border */
 

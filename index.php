@@ -442,9 +442,14 @@ CAMPUS EXPERIENCE
 
         <!-- Right Video -->
         <div class="campus-video">
+            width="100%"
+    height="100%"
 
             <iframe width="560" height="315" src="https://www.youtube.com/embed/K25Q2yDl-9Y?si=mpUrG1jiW-Z3taTn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+ title="Campus Video"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen>
         </div>
 
     </div>

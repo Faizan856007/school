@@ -410,9 +410,7 @@ CAMPUS EXPERIENCE
         <!-- Left Content -->
         <div class="campus-content">
 
-            <span class="section-title">
-                CAMPUS EXPERIENCE
-            </span>
+            <span class="section-title">CAMPUS EXPERIENCE</span>
 
             <h2>Explore Our Modern Campus</h2>
 
@@ -423,15 +421,10 @@ CAMPUS EXPERIENCE
             </p>
 
             <div class="campus-list">
-
                 <div><i class="fa-solid fa-check"></i> Smart Digital Classrooms</div>
-
                 <div><i class="fa-solid fa-check"></i> Robotics & AI Lab</div>
-
                 <div><i class="fa-solid fa-check"></i> Olympic Sports Facilities</div>
-
                 <div><i class="fa-solid fa-check"></i> Library & Innovation Hub</div>
-
             </div>
 
             <a href="#" class="primary-btn">
@@ -441,10 +434,15 @@ CAMPUS EXPERIENCE
         </div>
 
         <!-- Right Video -->
-        <div class="campus-video">
-           
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/K25Q2yDl-9Y?si=mpUrG1jiW-Z3taTn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="campus-video">
+
+            <iframe
+                src="https://www.youtube.com/embed/K25Q2yDl-9Y?autoplay=1&mute=1&loop=1&playlist=K25Q2yDl-9Y&controls=1&rel=0"
+                title="Campus Tour Video"
+                allow="autoplay; encrypted-media; picture-in-picture"
+                allowfullscreen>
+            </iframe>
 
         </div>
 

@@ -407,6 +407,7 @@ CAMPUS EXPERIENCE
 
     <div class="container campus-grid">
 
+        <!-- Left Content -->
         <div class="campus-content">
 
             <span class="section-title">
@@ -439,23 +440,20 @@ CAMPUS EXPERIENCE
 
         </div>
 
+        <!-- Right Video -->
+        <div class="campus-video">
 
-<!-- Video Popup -->
-<div class="video-popup" id="videoPopup">
-    <div class="video-box">
-        <span class="close-btn" id="closeVideo">&times;</span>
+            <iframe
+                src="https://www.youtube.com/embed/YOUR_VIDEO_ID?autoplay=1&mute=1&loop=1&playlist=YOUR_VIDEO_ID&controls=1"
+                title="Campus Tour"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
 
-        <iframe id="youtubeVideo"
-            width="800"
-            height="450"
-            src=""
-            title="YouTube video player"
-            frameborder="0"
-            allow="autoplay; encrypted-media"
-            allowfullscreen>
-        </iframe>
+        </div>
+
     </div>
-</div>
 
 </section>
 <!-- =========================

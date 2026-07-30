@@ -439,13 +439,6 @@ CAMPUS EXPERIENCE
 
         </div>
 
-<div class="campus-image">
-    <img src="images/campus.png" alt="Campus">
-
-    <a href="#" class="play-btn" id="playVideo">
-        <i class="fa-solid fa-play"></i>
-    </a>
-</div>
 
 <!-- Video Popup -->
 <div class="video-popup" id="videoPopup">

@@ -1256,20 +1256,77 @@ VIDEO BOX
 =========================*/
 
 .campus-video{
-    position:relative;
-    width:100%;
-    height:520px;
-    border-radius:30px;
-    overflow:hidden;
-    box-shadow:0 30px 60px rgba(0,0,0,.18);
-    background:#000;
+    position: relative;
+    width: 100%;
+    height: 560px;
+    border-radius: 28px;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 25px 60px rgba(0,0,0,.18);
+    transition: all .4s ease;
 }
 
-.campus-video iframe{
-    width:100%;
-    height:100%;
-    border:0;
-    display:block;
+.campus-video iframe,
+.campus-video video{
+    width: 100%;
+    height: 100%;
+    border: none;
+    object-fit: cover;
+    border-radius: 28px;
+    transition: transform .5s ease;
+}
+
+/* Hover Effect */
+.campus-video:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 35px 80px rgba(0,0,0,.28);
+}
+
+.campus-video:hover iframe,
+.campus-video:hover video{
+    transform: scale(1.05);
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+    .campus-video{
+        height:400px;
+    }
+
+}
+
+@media(max-width:576px){
+
+    .campus-video{
+        height:280px;
+        border-radius:20px;
+    }
+
+    .campus-video iframe,
+    .campus-video video{
+        border-radius:20px;
+    }
+
+}
+.campus-video::before{
+    content:"";
+    position:absolute;
+    top:-20px;
+    left:-20px;
+    width:120px;
+    height:120px;
+    background:#0ea5e9;
+    filter:blur(70px);
+    opacity:.35;
+    z-index:0;
+}
+
+.campus-video iframe,
+.campus-video video{
+    position:relative;
+    z-index:1;
 }
 
 /* Hover Effect */
@@ -1280,31 +1337,7 @@ VIDEO BOX
     box-shadow:0 40px 70px rgba(0,0,0,.25);
 }
 
-/*=========================
-Responsive
-=========================*/
 
-@media(max-width:992px){
-
-    .campus-grid{
-        grid-template-columns:1fr;
-        gap:40px;
-    }
-
-    .campus-content{
-        order:2;
-    }
-
-    .campus-video{
-        order:1;
-        height:380px;
-    }
-
-    .campus-content h2{
-        font-size:36px;
-    }
-
-}
 /* ===================================
 GALLERY SECTION
 =================================== */

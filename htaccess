@@ -1,0 +1,17 @@
+# Root .htaccess for school project (Railway deployment)
+
+# PHP ko default handler rehne do
+DirectoryIndex index.php
+
+# Directory listing band (security)
+Options -Indexes
+
+# Uploads folder ko direct browse na hone do
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+</IfModule>
+
+# Agar .env ya config file accidentally public ho to block kar do
+<FilesMatch "\.(env|sql|log)$">
+    Require all denied
+</FilesMatch>

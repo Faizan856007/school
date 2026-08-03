@@ -667,6 +667,133 @@ Read More
 
 </section>
 
+<!--=========================================
+WHY CHOOSE US
+=========================================-->
+
+<section class="why-choose">
+
+<div class="container">
+
+<div class="section-title">
+
+<span class="sub-title">
+WHY CHOOSE US
+</span>
+
+<h2>Why Parents Trust Our School</h2>
+
+<p>
+Providing world-class education with modern facilities, experienced teachers and a safe learning environment.
+</p>
+
+</div>
+
+
+<div class="choose-grid">
+
+
+<div class="choose-card">
+
+<div class="choose-icon">
+<i class="fa-solid fa-user-graduate"></i>
+</div>
+
+<h3>Expert Teachers</h3>
+
+<p>
+Highly qualified and experienced faculty dedicated to every student's success.
+</p>
+
+</div>
+
+
+
+<div class="choose-card">
+
+<div class="choose-icon">
+<i class="fa-solid fa-laptop-code"></i>
+</div>
+
+<h3>Smart Classrooms</h3>
+
+<p>
+Interactive digital classrooms with modern teaching technology.
+</p>
+
+</div>
+
+
+
+<div class="choose-card">
+
+<div class="choose-icon">
+<i class="fa-solid fa-flask"></i>
+</div>
+
+<h3>Science Labs</h3>
+
+<p>
+Fully equipped laboratories for practical and innovative learning.
+</p>
+
+</div>
+
+
+
+<div class="choose-card">
+
+<div class="choose-icon">
+<i class="fa-solid fa-book-open"></i>
+</div>
+
+<h3>Modern Library</h3>
+
+<p>
+Thousands of books, journals and digital resources for students.
+</p>
+
+</div>
+
+
+
+<div class="choose-card">
+
+<div class="choose-icon">
+<i class="fa-solid fa-bus"></i>
+</div>
+
+<h3>Safe Transport</h3>
+
+<p>
+GPS-enabled buses with trained drivers for safe daily travel.
+</p>
+
+</div>
+
+
+
+<div class="choose-card">
+
+<div class="choose-icon">
+<i class="fa-solid fa-trophy"></i>
+</div>
+
+<h3>Sports Excellence</h3>
+
+<p>
+Professional coaching and excellent sports facilities for all students.
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+    
 <!-- =========================
 TESTIMONIAL SECTION
 ========================== -->

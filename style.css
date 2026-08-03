@@ -2486,3 +2486,157 @@ ADMISSION PROCESS
 }
 
 }
+/*=========================================
+UPCOMING EVENTS
+=========================================*/
+
+.events{
+    padding:120px 0;
+    background:#ffffff;
+}
+
+.events-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:35px;
+    margin-top:70px;
+}
+
+.event-card{
+    background:#fff;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 15px 45px rgba(0,0,0,.08);
+    transition:.4s;
+}
+
+.event-card:hover{
+    transform:translateY(-12px);
+    box-shadow:0 25px 60px rgba(37,99,235,.18);
+}
+
+.event-image{
+    position:relative;
+    height:260px;
+    overflow:hidden;
+}
+
+.event-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.event-card:hover .event-image img{
+    transform:scale(1.08);
+}
+
+.event-date{
+    position:absolute;
+    top:20px;
+    left:20px;
+    width:70px;
+    height:80px;
+    border-radius:18px;
+    background:linear-gradient(135deg,#2563eb,#06b6d4);
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0 12px 25px rgba(37,99,235,.35);
+}
+
+.event-date span{
+    font-size:28px;
+    font-weight:700;
+    line-height:1;
+}
+
+.event-date p{
+    margin-top:5px;
+    font-size:12px;
+    letter-spacing:2px;
+}
+
+.event-content{
+    padding:30px;
+}
+
+.event-content h3{
+    font-size:24px;
+    color:#1e293b;
+    margin-bottom:15px;
+}
+
+.event-content p{
+    color:#64748b;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+.event-info{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    margin-bottom:25px;
+}
+
+.event-info span{
+    color:#475569;
+    font-size:15px;
+}
+
+.event-info i{
+    color:#2563eb;
+    margin-right:8px;
+}
+
+.event-btn{
+    display:inline-block;
+    padding:12px 28px;
+    background:linear-gradient(135deg,#2563eb,#06b6d4);
+    color:#fff;
+    text-decoration:none;
+    border-radius:40px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.event-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 12px 25px rgba(37,99,235,.35);
+}
+
+@media(max-width:1000px){
+
+.events-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:700px){
+
+.events{
+    padding:80px 0;
+}
+
+.events-grid{
+    grid-template-columns:1fr;
+}
+
+.event-image{
+    height:220px;
+}
+
+.event-content{
+    padding:25px;
+}
+
+.event-content h3{
+    font-size:22px;
+}
+
+}

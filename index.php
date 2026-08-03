@@ -857,6 +857,99 @@ SCHOOL STATISTICS
     </div>
 
 </section>
+    <!--=========================================
+ADMISSION PROCESS
+==========================================-->
+
+<section class="admission">
+
+<div class="container">
+
+<div class="section-title">
+
+<span class="sub-title">
+ADMISSION PROCESS
+</span>
+
+<h2>Simple Admission Process</h2>
+
+<p>
+Start your child's educational journey with our simple and transparent admission process.
+</p>
+
+</div>
+
+<div class="admission-grid">
+
+<div class="admission-card">
+
+<div class="step-number">01</div>
+
+<div class="admission-icon">
+<i class="fa-solid fa-file-pen"></i>
+</div>
+
+<h3>Fill Application</h3>
+
+<p>
+Complete the online admission form with the student's basic details.
+</p>
+
+</div>
+
+<div class="admission-card">
+
+<div class="step-number">02</div>
+
+<div class="admission-icon">
+<i class="fa-solid fa-folder-open"></i>
+</div>
+
+<h3>Submit Documents</h3>
+
+<p>
+Upload or submit the required documents for verification.
+</p>
+
+</div>
+
+<div class="admission-card">
+
+<div class="step-number">03</div>
+
+<div class="admission-icon">
+<i class="fa-solid fa-users"></i>
+</div>
+
+<h3>Interaction</h3>
+
+<p>
+Student and parents attend a friendly interaction with our faculty.
+</p>
+
+</div>
+
+<div class="admission-card">
+
+<div class="step-number">04</div>
+
+<div class="admission-icon">
+<i class="fa-solid fa-graduation-cap"></i>
+</div>
+
+<h3>Admission Confirmed</h3>
+
+<p>
+Welcome to our school family and begin an exciting learning journey.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
     
 <!-- =========================
 TESTIMONIAL SECTION

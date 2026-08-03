@@ -2140,3 +2140,110 @@ Responsive
 }
 
 }
+
+/*=========================================
+WHY CHOOSE US
+=========================================*/
+
+.why-choose{
+    padding:120px 0;
+    background:linear-gradient(180deg,#ffffff,#f7fbff);
+}
+
+.choose-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:35px;
+    margin-top:70px;
+}
+
+.choose-card{
+    background:#fff;
+    padding:45px 35px;
+    border-radius:25px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    transition:.4s;
+    position:relative;
+    overflow:hidden;
+    border:1px solid rgba(37,99,235,.08);
+}
+
+.choose-card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:-100%;
+    width:100%;
+    height:5px;
+    background:linear-gradient(90deg,#2563eb,#06b6d4);
+    transition:.4s;
+}
+
+.choose-card:hover::before{
+    left:0;
+}
+
+.choose-card:hover{
+    transform:translateY(-12px);
+    box-shadow:0 25px 55px rgba(37,99,235,.18);
+}
+
+.choose-icon{
+    width:90px;
+    height:90px;
+    margin:auto;
+    border-radius:50%;
+    background:linear-gradient(135deg,#2563eb,#06b6d4);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    font-size:34px;
+    margin-bottom:25px;
+    transition:.4s;
+}
+
+.choose-card:hover .choose-icon{
+    transform:rotateY(180deg) scale(1.08);
+}
+
+.choose-card h3{
+    font-size:24px;
+    color:#1e293b;
+    margin-bottom:15px;
+}
+
+.choose-card p{
+    color:#64748b;
+    line-height:1.8;
+    font-size:15px;
+}
+
+/* Responsive */
+
+@media(max-width:1000px){
+
+.choose-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:700px){
+
+.choose-grid{
+    grid-template-columns:1fr;
+}
+
+.choose-card{
+    padding:35px 25px;
+}
+
+.choose-icon{
+    width:80px;
+    height:80px;
+    font-size:30px;
+}
+
+}

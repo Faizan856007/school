@@ -526,6 +526,147 @@ GALLERY SECTION
 
 </section>
 
+    <!--=========================================
+LATEST NEWS SECTION
+==========================================-->
+
+<section class="news">
+
+<div class="container">
+
+<div class="section-title">
+
+<span class="sub-title">
+LATEST UPDATES
+</span>
+
+<h2>
+Latest News & Announcements
+</h2>
+
+<p>
+Stay updated with our latest school activities, admissions, achievements and upcoming events.
+</p>
+
+</div>
+
+
+<div class="news-grid">
+
+
+<!-- CARD 1 -->
+
+<div class="news-card">
+
+<div class="news-date">
+
+<span>12</span>
+
+<p>AUG</p>
+
+</div>
+
+<div class="news-content">
+
+<span class="news-tag">
+Admission
+</span>
+
+<h3>
+Admissions Open for Academic Session 2026–27
+</h3>
+
+<p>
+Online registration has started. Limited seats are available for Nursery to Class XII.
+</p>
+
+<a href="#">
+Read More
+<i class="fa-solid fa-arrow-right"></i>
+</a>
+
+</div>
+
+</div>
+
+
+<!-- CARD 2 -->
+
+<div class="news-card">
+
+<div class="news-date">
+
+<span>15</span>
+
+<p>AUG</p>
+
+</div>
+
+<div class="news-content">
+
+<span class="news-tag event">
+Event
+</span>
+
+<h3>
+Independence Day Celebration
+</h3>
+
+<p>
+Join us for flag hoisting, cultural performances and patriotic activities at the school campus.
+</p>
+
+<a href="#">
+Read More
+<i class="fa-solid fa-arrow-right"></i>
+</a>
+
+</div>
+
+</div>
+
+
+<!-- CARD 3 -->
+
+<div class="news-card">
+
+<div class="news-date">
+
+<span>25</span>
+
+<p>AUG</p>
+
+</div>
+
+<div class="news-content">
+
+<span class="news-tag achievement">
+Achievement
+</span>
+
+<h3>
+Students Won State Level Science Competition
+</h3>
+
+<p>
+Congratulations to our talented students for securing first position in the state science fair.
+</p>
+
+<a href="#">
+Read More
+<i class="fa-solid fa-arrow-right"></i>
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
 <!-- =========================
 TESTIMONIAL SECTION
 ========================== -->

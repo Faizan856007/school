@@ -950,7 +950,179 @@ Welcome to our school family and begin an exciting learning journey.
 </div>
 
 </section>
-    
+    <!--=========================================
+UPCOMING EVENTS
+==========================================-->
+
+<section class="events">
+
+<div class="container">
+
+<div class="section-title">
+
+<span class="sub-title">
+SCHOOL EVENTS
+</span>
+
+<h2>Upcoming Events</h2>
+
+<p>
+Discover exciting events, competitions and celebrations happening at our school.
+</p>
+
+</div>
+
+<div class="events-grid">
+
+<!-- Event 1 -->
+
+<div class="event-card">
+
+<div class="event-image">
+
+<img src="images/event1.jpg" alt="Annual Function">
+
+<div class="event-date">
+
+<span>18</span>
+
+<p>SEP</p>
+
+</div>
+
+</div>
+
+<div class="event-content">
+
+<h3>Annual Cultural Function</h3>
+
+<p>
+An evening filled with dance, music, drama and student performances.
+</p>
+
+<div class="event-info">
+
+<span>
+<i class="fa-solid fa-clock"></i>
+10:00 AM
+</span>
+
+<span>
+<i class="fa-solid fa-location-dot"></i>
+School Auditorium
+</span>
+
+</div>
+
+<a href="#" class="event-btn">
+View Details
+</a>
+
+</div>
+
+</div>
+
+<!-- Event 2 -->
+
+<div class="event-card">
+
+<div class="event-image">
+
+<img src="images/event2.jpg" alt="Science Exhibition">
+
+<div class="event-date">
+
+<span>25</span>
+
+<p>SEP</p>
+
+</div>
+
+</div>
+
+<div class="event-content">
+
+<h3>Science Exhibition</h3>
+
+<p>
+Students will showcase innovative science projects and working models.
+</p>
+
+<div class="event-info">
+
+<span>
+<i class="fa-solid fa-clock"></i>
+09:30 AM
+</span>
+
+<span>
+<i class="fa-solid fa-location-dot"></i>
+Science Block
+</span>
+
+</div>
+
+<a href="#" class="event-btn">
+View Details
+</a>
+
+</div>
+
+</div>
+
+<!-- Event 3 -->
+
+<div class="event-card">
+
+<div class="event-image">
+
+<img src="images/event3.jpg" alt="Sports Day">
+
+<div class="event-date">
+
+<span>05</span>
+
+<p>OCT</p>
+
+</div>
+
+</div>
+
+<div class="event-content">
+
+<h3>Annual Sports Day</h3>
+
+<p>
+Track events, team games and prize distribution for all participants.
+</p>
+
+<div class="event-info">
+
+<span>
+<i class="fa-solid fa-clock"></i>
+08:00 AM
+</span>
+
+<span>
+<i class="fa-solid fa-location-dot"></i>
+School Ground
+</span>
+
+</div>
+
+<a href="#" class="event-btn">
+View Details
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
 <!-- =========================
 TESTIMONIAL SECTION
 ========================== -->

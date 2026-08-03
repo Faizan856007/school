@@ -2247,3 +2247,115 @@ WHY CHOOSE US
 }
 
 }
+/*=========================================
+SCHOOL STATISTICS
+=========================================*/
+
+.stats{
+    padding:120px 0;
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);
+    position:relative;
+    overflow:hidden;
+}
+
+.stats::before{
+    content:"";
+    position:absolute;
+    width:500px;
+    height:500px;
+    background:rgba(255,255,255,.05);
+    border-radius:50%;
+    top:-220px;
+    left:-180px;
+}
+
+.stats::after{
+    content:"";
+    position:absolute;
+    width:400px;
+    height:400px;
+    background:rgba(255,255,255,.04);
+    border-radius:50%;
+    bottom:-180px;
+    right:-120px;
+}
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+    position:relative;
+    z-index:2;
+}
+
+.stat-card{
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:25px;
+    padding:45px 25px;
+    text-align:center;
+    transition:.4s;
+}
+
+.stat-card:hover{
+    transform:translateY(-10px);
+    background:rgba(255,255,255,.12);
+}
+
+.stat-icon{
+    width:85px;
+    height:85px;
+    margin:auto;
+    border-radius:50%;
+    background:linear-gradient(135deg,#38bdf8,#2563eb);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:32px;
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.stat-card h2{
+    font-size:52px;
+    color:#fff;
+    margin-bottom:10px;
+    font-weight:700;
+}
+
+.stat-card p{
+    color:#dbeafe;
+    font-size:17px;
+    font-weight:500;
+}
+
+@media(max-width:1000px){
+
+.stats-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:600px){
+
+.stats{
+    padding:80px 0;
+}
+
+.stats-grid{
+    grid-template-columns:1fr;
+}
+
+.stat-card h2{
+    font-size:42px;
+}
+
+.stat-icon{
+    width:75px;
+    height:75px;
+    font-size:28px;
+}
+
+}

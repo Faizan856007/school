@@ -1,3 +1,6 @@
+cd /home/claude/work/school-main && cat main/index.php | head -30; echo "---"; ls
+Output
+
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
@@ -27,6 +30,21 @@ function isLoggedIn() {
    <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+---
+000-default.conf
+Dockerfile
+apache2.conf
+apply.css
+apply.html
+apply.js
+htaccess
+images
+main
+main.js
+render.yaml
+school_management
+variables.css
 
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- Font Awesome (was missing — icons wouldn't render without this) -->

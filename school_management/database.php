@@ -7,11 +7,13 @@
  * prevent SQL Injection.
  */
 
-// ---- Database credentials (edit for your XAMPP setup) ----
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'school_management');
-define('DB_USER', 'root');
-define('DB_PASS', ''); // default XAMPP MySQL password is empty
+// ---- Database credentials ----
+// Reads from environment variables (set these in Render's dashboard),
+// falling back to XAMPP defaults for local development.
+define('DB_HOST', getenv('DB_HOST') ?: 'localhost');
+define('DB_NAME', getenv('DB_NAME') ?: 'school_management');
+define('DB_USER', getenv('DB_USER') ?: 'root');
+define('DB_PASS', getenv('DB_PASS') ?: ''); // default XAMPP MySQL password is empty
 
 try {
     // DSN (Data Source Name)

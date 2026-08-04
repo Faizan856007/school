@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+# Render (and similar hosts) provide the port to bind via $PORT.
+# Default to 80 for local `docker run` testing.
+PORT="${PORT:-80}"
+
+sed -i "s/Listen 80/Listen ${PORT}/" /etc/apache2/ports.conf
+sed -i "s/<VirtualHost \*:80>/<VirtualHost *:${PORT}>/" /etc/apache2/sites-available/000-default.conf
+
+exec "$@"

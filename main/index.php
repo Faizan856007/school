@@ -49,9 +49,7 @@ function isLoggedIn() {
 <div class="logo-icon">
 <i class="fa-solid fa-school"></i>
 </div>
-
 <div>
-
 <h2>Green Valley</h2>
 <p>International School</p>
 
